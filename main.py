@@ -33,7 +33,7 @@ def validateSolution(rows):
 def solution(rows):
     global countSolutions
     countSolutions += 1
-    print("Solução: ", countSolutions)
+    print("Solucao: ", countSolutions)
     board = [['.'] * 8 for _ in range(8)]
     for i in range(8):
         x = i
